@@ -1,5 +1,9 @@
 # Front
 
+## User & Password
+ - User: rafamtest@gmail.com
+ - Password: rafam1
+
 ## Dependencies
  - Node
  - NPM
