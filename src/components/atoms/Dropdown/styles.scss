@@ -1,0 +1,48 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.dropdown{
+
+    .dropdown-toggle {
+        height: 36px;
+        width: 100px;
+        left: 48px;
+        top: 21px;
+        border-radius: 10px;
+        padding: 10px 8px 10px 12px;
+        background: #fff;
+        border: 3px solid #C6C7D4;
+        box-shadow: 0px 2px 0px 0px #C6C7D4;
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #9A9CB5;
+    }
+
+    .btn-success:hover{
+        background: #C6C7D4;
+        border: 3px solid #C6C7D4;
+    }
+
+    .btn-check:focus+.btn-success, .btn-success:focus{
+        background: #C6C7D4;
+        border: 3px solid #C6C7D4;
+    }
+
+}
+
+.dropdown.show{
+    .btn-success.dropdown-toggle{
+        background: #C6C7D4;
+        border: 3px solid #C6C7D4;
+    }
+}
+
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+
+}

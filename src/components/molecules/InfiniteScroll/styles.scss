@@ -1,0 +1,16 @@
+    
+
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.infinite-scroll-component{ 
+    h4{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+
+}

@@ -1,0 +1,29 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+// background: #3843D0;
+
+.action-button {
+    height: 36px;
+    width: 100%;
+    left: 751px;
+    top: 38px;
+    border-radius: 4px;
+    padding: 10px, 24px, 10px, 24px;
+    background: #12416F;
+    border: 3px solid #12416F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.action-button.button-cancel {
+    color:#3843D0;
+    background: #fff;
+}

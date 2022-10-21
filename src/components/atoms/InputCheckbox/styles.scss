@@ -1,0 +1,43 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.input-checkbox{
+    color: #626060;
+    font-family: MyriadPro;
+    font-size: 12px;
+
+    .form-check{
+        display: flex;
+        align-items: center;
+        position: static;
+        padding-left: 0;
+    }
+
+    label {
+        font-family: MyriadPro;
+        font-weight: 400;
+        color: #626060;
+        margin: 0;
+        margin-left: 5px;
+    }
+        
+
+    input{
+        width: 14px;
+        height: 13px;
+        border-color: #E5E5E5;
+        border-radius: 4px;
+        font-family: MyriadPro;
+        position: static;
+        margin: 0;
+    }
+}
+
+
+.input-error{
+    color: #e60f0f;
+    font-family: MyriadPro;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.community-list-header {
+    display: flex;
+    width: 100%;
+
+    h1 {
+        font-family: Inter;
+        font-style: normal;
+        font-size: 1.75em;
+        font-weight: 600;
+        line-height: 41.6px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3D3E40;
+    }
+
+    input {
+        flex: 1 1;
+    }
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+    .community-list-header {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    a.create-button {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+    }
+}

@@ -1,0 +1,91 @@
+[
+    {
+        "title": "Nuevo Ejercicio",
+        "description": "Generar el nuevo ejercicio fiscal para formular el Presupuesto."
+    },
+    {
+        "title": "Anteproyecto",
+        "description": "Administrar la informacion de anteproyectos."
+    },
+    {
+        "title": "Clasificadores Primarios",
+        "description": "Administrar la informacion de clasificadores primarios.",
+        "submenu": [
+            {
+                "title": "Clasificador Institucional"
+            },
+            {
+                "title": "Estructura Programatica"
+            },
+            {
+                "title": "Recursos por Rubro"
+            },
+            {
+                "title": "Gastos por Objeto"
+            },
+            {
+                "title": "Fuentes de Financiamiento"
+            }
+        ]
+    },
+    {
+        "title": "Clasificadores Agregados",
+        "description": "Administrar la informacion de los Clasificadores Agregados.",
+        "submenu": [
+            {
+                "title": "Recursos por Origen y Procedencia"
+            },
+            {
+                "title": "Recursos por Caracter Economico"
+            },
+            {
+                "title": "Gastos por Finalidad y Funcion"
+            },
+            {
+                "title": "Gastos por Caracter Economico"
+            }
+        ]
+    },
+    {
+        "title": "Reglas Presupuestarias",
+        "description": "Administrar la informacion de Reglas Presupuestarias para la etapa de Formulacion y Programacion."
+    },
+    {
+        "title": "Categorias Programaticas",
+        "description": "Administrar la informacion de Categorias Programaticas."
+    },
+    {
+        "title": "Unidades Ejecutoras",
+        "description": "Administrar la informacion de Unidades Ejecutoras."
+    },
+    {
+        "title": "Causas de Desvios",
+        "description": "Administrar la informacion de las Causas Operativas, Financieras y conclusiones.",
+        "submenu": [
+            {
+                "title": "Financieras"
+            },
+            {
+                "title": "Operativas"
+            },
+            {
+                "title": "Conclusiones"
+            }
+        ]
+    },
+    {
+        "title": "Tablas Referenciales",
+        "description": "Administrar la informacion de las Tablas Referenciales del Modulo Presupuesto.",
+        "submenu": [
+            {
+                "title": "Unidades de Medida"
+            },
+            {
+                "title": "Gastos Prioritarios"
+            },
+            {
+                "title": "Motivos Reglas Presupuestarias"
+            }
+        ]
+    }
+]

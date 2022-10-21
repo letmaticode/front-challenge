@@ -1,0 +1,83 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+
+body{
+    overflow: auto;
+
+    .desktop-main-layout-container{
+        height: 100%;
+        display: flex;
+        background-color: $rafamBlue;
+        overflow: hidden;
+
+
+        .mobile-nav{
+            display: none;
+        }
+        .right-layout-container{
+            flex: 1 1;
+            height: 100%;
+            flex-direction: column;
+            display: flex;
+            background: #F5F5F5;
+            align-items: center;
+
+            .right-layout-content {
+                padding: 30px;
+                overflow: auto;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+
+    body .desktop-main-layout-container .right-layout-container{
+        background: none;
+        .right-layout-content {
+            padding: 16px;
+            width: 100%;
+            min-width: 382px;
+        }
+    }
+    .desktop-main-layout-container{
+        height: 100%;
+        display: flex;
+        background: none;
+        flex-direction: column;
+        /* height: 100vh; */
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        .right-layout-container{
+            flex: 1;
+            .right-layout-content {
+                padding: 0px;
+            }
+        }
+        .desktop-nav{
+            display: none;
+        }
+        .mobile-nav{
+            display: initial;
+        }
+    }
+
+    .footer-mobile-container{
+        padding: 0;
+    }
+
+    .base-header-container .base-header-user {
+        right: 95px;
+    }
+
+}

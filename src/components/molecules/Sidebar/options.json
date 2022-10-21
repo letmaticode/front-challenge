@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Inicio"
+    },
+    {
+        "title": "Presupuesto",
+        "submenu": [
+            {
+                "title": "Configuración"
+            },
+            {
+                "title": "Formulación Presupuestaria"
+            },
+            {
+                "title": "Modificación Presupuestaria"
+            },
+            {
+                "title": "Programación Física"
+            },
+            {
+                "title": "Reportes"
+            }
+        ]
+    },
+    {
+        "title": "CAS",
+        "submenu": []
+    },
+    {
+        "title": "Planificación",
+        "submenu": []
+    },
+    {
+        "title": "Contrataciones",
+        "submenu": []
+    },
+    {
+        "title": "Portal",
+        "submenu": []
+    },
+    {
+        "title": "Contabilidad",
+        "submenu": []
+    },
+    {
+        "title": "Tesorería",
+        "submenu": []
+    },
+    {
+        "title": "Bienes Físicos",
+        "submenu": []
+    },
+    {
+        "title": "Inversión Pública",
+        "submenu": []
+    },
+    {
+        "title": "Crédito Público",
+        "submenu": []
+    },
+    {
+        "title": "Ingresos Públicos",
+        "submenu": []
+    },
+    {
+        "title": "Recursos Humanos",
+        "submenu": []
+    }
+]

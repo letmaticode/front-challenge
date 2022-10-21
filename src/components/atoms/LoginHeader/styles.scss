@@ -1,0 +1,26 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.login-header-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: #12416F;
+    padding: 1rem;
+
+    &.sidebar {
+        margin: 1.5rem;
+        padding: 0;
+    }
+
+    .login-header-logo {
+        font-size: 2em;
+        font-style: italic;
+        font-weight: 600;
+
+        svg:first-child {
+            margin-right: 10px;
+        }
+    }
+}

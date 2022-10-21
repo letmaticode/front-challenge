@@ -1,0 +1,18 @@
+export const reducer = (state, action) => {
+    switch (action.type) {
+      // case 'setUser':
+      //   return { ...state, user: action.payload }
+      default:
+        return state
+    }
+  }
+
+export const reducerPersist = (state, action) => {
+    switch (action.type) {
+      // case 'setUser':
+      //   return { ...state, user: action.payload }
+      default:
+        return state
+    }
+  }
+  

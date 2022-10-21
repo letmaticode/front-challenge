@@ -1,0 +1,164 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+
+.item-infinite-scroll-container{
+    border-bottom: 1px solid #DBDBDB;
+    max-width: 704px;
+    padding: 24px 24px 8px 8px;
+    display: flex;
+    flex-direction: column;
+
+    .item-infinite-scroll-header{
+        display:flex;
+        .item-infinite-scroll-photo{
+            width: 20%;
+        }
+        .item-infinite-scroll-info{
+            width: 100%;
+            display: flex;
+            h2{
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #4F4F4F;
+            }
+            
+            p{
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #828282;
+                padding: 24px;
+                strong{
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .item-infinite-scroll-comments{
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-left: 4px;
+                color: #9A9CB5;
+            }
+        }
+    }
+
+    .item-infinite-scroll-footer{
+        display:flex;
+
+        .item-infinite-scroll-likes{
+            display:flex;
+            width: 15%;
+            margin-left: 20%;
+            svg{
+                margin-right:20px;
+            }
+        }
+
+        .item-infinite-scroll-meta{
+            width: 60%;
+            p{
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #828282;
+                strong{
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #3843D0;
+                }
+            }
+        }
+
+        .item-infinite-scroll-share{
+            width: 15%;
+            display:flex; 
+            justify-content: flex-end;
+            svg{
+                margin-left:20px;
+            }
+
+            p{
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-left: 4px;
+                color: #9A9CB5;
+            }
+        }
+    }
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+    .item-infinite-scroll-container{
+        margin-left: 0;
+        padding: 32px 0px 0px 0px;
+
+        .item-infinite-scroll-header{
+            margin-bottom: 16px;
+
+            .item-infinite-scroll-photo{
+                margin-right: 18px;
+                svg{
+                    width: 64px;
+                    height: 64px;
+                }
+            }
+            .item-infinite-scroll-info{
+                width: 80%;
+            }
+        } 
+
+        .item-infinite-scroll-footer{
+
+            .item-infinite-scroll-likes{
+                width: 20%;
+                margin-left: 0;
+                margin-right: 16px;
+                svg{
+                    margin-right: 16px;
+                } 
+            }
+
+            .item-infinite-scroll-share{
+                width: auto;
+
+                svg{
+                    width: 18px;
+                    height: 18px;
+                } 
+            }
+        } 
+    }
+}

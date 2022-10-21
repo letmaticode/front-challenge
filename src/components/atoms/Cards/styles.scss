@@ -1,0 +1,55 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.cards-list-content{
+    height: 100%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 10%;
+
+    .cards-list-item{
+        width: 40%;
+        border-left: solid 0.5em $rafamBlue;   
+        margin: 1px 0;
+
+        &.large{
+            margin-bottom: 8px;
+        }
+    
+        article{
+            padding: 0.75em;
+            border-top: solid 1px #E1E1E1;
+            border-right: solid 1px #E1E1E1;
+            border-bottom: solid 1px #E1E1E1;
+            border-radius: 0 9px 9px 0;
+            background-color: #FFFFFF;
+        }
+    
+        h2{
+            color: $rafamBlue;
+            font-size: 1.25em;
+            margin-bottom: 1em;
+            cursor: pointer;
+        }
+    
+        p{
+            margin: 0;
+            font-size: 12px;
+            color: #787E8F;
+        }
+    
+        ol{
+            list-style-type: none;
+            margin: 1em 0 0 0;
+    
+            li{
+                font-size: 16px;
+                color: $rafamBlue;
+                margin: 0.25em 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
